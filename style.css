@@ -1,0 +1,47 @@
+body {
+  background: #0e9aa7;
+}
+
+.s-paw {
+  font-family: roboto;
+  font-size: 50px;
+  color: #ffd31d;
+  padding: 6px 4px;
+  background-color: transparent;
+  border: navajowhite;
+  border-bottom: 1px solid #ffd31d;
+  outline: none;
+  margin-left: 320px;
+  margin-top: 270px;
+}
+
+.s-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  font-family: roboto;
+  font-size: 25px;
+  color: #fff;
+  padding: 14px 24px;
+  background: #ffd31d;
+  box-shadow: 6px 4px 12px rgba(43, 54, 65, 0.1);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 250ms ease;
+  outline: none;
+}
+
+.s-btn:hover {
+  background: #fc8210;
+  box-shadow: 6px 4px 12px rgba(43, 54, 65, 0.1);
+}
+
+.s-btn:active {
+  transform: scale(0.7);
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
